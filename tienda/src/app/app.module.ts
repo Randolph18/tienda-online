@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+//import { MatToolbarModule, MatButtonModule, MatFormFieldModule, MatInputModule, MatIconModule } from '@angular/material';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,8 +18,12 @@ import { HeaderComponent } from './component/header/header.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    
-    
+    // MatToolbarModule,
+    // MatButtonModule,
+    // MatFormFieldModule,
+    // MatInputModule,
+    // MatIconModule,
+ 
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,14 @@
+
+const database = 'tienda-data';
+const collection = 'invetario';
+//esto es el nombre de mi base de datos
+use(database);
+
+db.products.insertOne({
+    nombre: '',
+    precio: '',
+    img: '',
+    peso:'',
+})
+
+
